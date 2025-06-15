@@ -6,5 +6,6 @@ def salva_vagas():
     vagas.obtem_vagas()
     vagas.dump_vagas()
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     salva_vagas()
