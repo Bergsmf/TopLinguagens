@@ -3,7 +3,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from app.classes.vagas import Vagas
+from toplinguagens.classes.vagas import Vagas
 
 
 @pytest.fixture
@@ -16,8 +16,8 @@ def mock_response():
     }
 
 
-@patch('app.classes.vagas.requests.get')
-@patch('app.classes.vagas.os.getenv')
+@patch('toplinguagens.classes.vagas.requests.get')
+@patch('toplinguagens.classes.vagas.os.getenv')
 def test_obtem_dump_vagas(mock_getenv, mock_get, tmp_path, mock_response):
     # Arrange
     mock_resp = MagicMock()
