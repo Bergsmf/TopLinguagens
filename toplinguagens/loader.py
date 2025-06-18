@@ -1,11 +1,9 @@
 from classes.vagas import Vagas
 
-
-def salva_vagas():
+if __name__ == '__main__':
     vagas = Vagas()
     vagas.obtem_vagas()
     vagas.dump_vagas()
-
-
-if __name__ == '__main__':
-    salva_vagas()
+    vagas.organiza_vagas()
+    vagas.organiza_tecnologias()
+    vagas.organiza_locais()

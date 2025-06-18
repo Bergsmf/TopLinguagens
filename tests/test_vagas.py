@@ -10,8 +10,52 @@ from toplinguagens.classes.vagas import Vagas
 def mock_response():
     return {
         'jobs': [
-            {'id': 1, 'title': 'Dev Python'},
-            {'id': 2, 'title': 'Data Scientist'},
+            {
+                'id': 1,
+                'url': 'https://example.com/job_abc',
+                'title': 'Software Engineer',
+                'company_name': 'ABCT1',
+                'company_logo': 'https://example.com/logo_abc',
+                'category': 'Software Development',
+                'tags': ['c#', 'react'],
+                'job_type': 'contract',
+                'publication_date': '2025-06-16T18:50:22',
+                'candidate_required_location': 'Europe, UK, Asia',
+                'salary': 'day rate or month rate based on experience',
+                'description': 'XPTO abc',
+            },
+            {
+                'id': 2,
+                'url': 'https://example.com/job_def',
+                'title': 'Environment Artist',
+                'company_name': 'DEFT2',
+                'company_logo': 'https://example.com/logo_def',
+                'category': 'Design',
+                'tags': ['video', 'editing'],
+                'job_type': 'freelance',
+                'publication_date': '2025-06-16T18:50:22',
+                'candidate_required_location': 'Americas, LATAM',
+                'salary': '',
+                'description': 'XPTO def',
+            },
+            {
+                'id': 3,
+                'url': 'https://example.com/job_ghi',
+                'title': 'Account Executive',
+                'company_name': 'GHIT3',
+                'company_logo': 'https://example.com/logo_ghi',
+                'category': 'Sales / Business',
+                'tags': [
+                    'business development',
+                    'account management',
+                    'sales management',
+                ],
+                'job_type': 'full_time',
+                'publication_date': '2025-06-16T18:50:22',
+                'candidate_required_location': 'Brazil',
+                'salary': '',
+                'description': 'XPTO ghi',
+            },
         ]
     }
 
