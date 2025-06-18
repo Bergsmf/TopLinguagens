@@ -1,11 +1,10 @@
 # TopLinguagens  
-![Python](https://img.shields.io/badge/Python-3.12%2B-2a9d8f)  
-![Pandas](https://img.shields.io/badge/Pandas-2.3.0-e9c46a)  
-![Pytest](https://img.shields.io/badge/Pytest-8.4.0-e76f51)  
-![Requests](https://img.shields.io/badge/Requests-2.32.4-f4a261)  
-![Ruff](https://img.shields.io/badge/Ruff-0.11.13-8a4fff)  
-![Streamlit](https://img.shields.io/badge/Streamlit-1.45.1-ff4b4b)  
-![Taskipy](https://img.shields.io/badge/Taskipy-1.14.1-2e7d32)  
+![Python](https://img.shields.io/badge/Python-3.12%2B-2a9d8f) 
+![Pandas](https://img.shields.io/badge/Pandas-2.3.0-e9c46a) 
+![Pytest](https://img.shields.io/badge/Pytest-8.4.0-e76f51) 
+![Requests](https://img.shields.io/badge/Requests-2.32.4-f4a261) 
+![Ruff](https://img.shields.io/badge/Ruff-0.11.13-8a4fff) 
+![Streamlit](https://img.shields.io/badge/Streamlit-1.45.1-ff4b4b) ![Taskipy](https://img.shields.io/badge/Taskipy-1.14.1-2e7d32)  
 
 ## Descrição
 
