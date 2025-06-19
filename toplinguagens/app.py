@@ -32,8 +32,24 @@ def obtem_datas():
     st.line_chart(data=df_days['qt_vagas'], use_container_width=True)
 
 
+def areas_mais_requisitadas():
+    st.title('Áreas mais requisitadas')
+    st.markdown('### Vagas por área')
+    df_area = pd.read_parquet(Path.cwd() / 'data/arq_vagas.parquet')
+    df_area = (
+        df_area['category']
+        .value_counts()
+        .to_frame(name='vagas')
+        .reset_index()
+        .sort_values(by='vagas', ascending=False)
+    )
+    pd.set_option('display.max_colwidth', None)
+    st.bar_chart(data=df_area['vagas'], use_container_width=True)
+    st.dataframe(df_area.reset_index(drop=True), use_container_width=True)
+
+
 def tec_mais_requisitadas():
-    st.title('Habilidade mais requisitadas')
+    st.title('Habilidades mais requisitadas')
     st.markdown('### E habilidades que são também pedidas  junto com elas')
     df_habilidades = (
         pd.read_parquet(Path.cwd() / 'data/arq_tecnologias.parquet')[['tags']]
@@ -125,5 +141,6 @@ def busca_vaga():
 
 if __name__ == '__main__':
     obtem_datas()
+    areas_mais_requisitadas()
     tec_mais_requisitadas()
     busca_vaga()
