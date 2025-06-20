@@ -101,15 +101,22 @@ Observação: as tarefas pre_run e pre_test são chamadas automaticamente antes 
 ### Vagas abertas por data  
 #### A data de abertura das vagas disponíveis
 ![Vagas abertas por data](toplinguagens/img/Vagas_abertas_data.png)
-
+---
 ### Áreas mais requisitadas 
 #### Vagas por área
 ![Areas requisitadas](toplinguagens/img/Areas_requisitadas.png)
-
+---
 ### Linguagens mais requisitadas  
 #### Tecnologias mais pedidas e as que mais aparecem junto com elas
-![Mais requisitadas](toplinguagens/img/Principais_requisitos.png)
+![Mais requisitadas Todos](toplinguagens/img/Principais_requisitos_todos.png)
 
+#### Filtro de tecnologias mais pedidas por categoria
+![Mais requisitadas Filtro](toplinguagens/img/Principais_requisitos_filtro.png)
+---
+### Linguagens mais requisitadas  
+#### Tecnologias mais pedidas em uma categoria e as que mais aparecem junto com elas
+![Mais requisitadas Filtrado](toplinguagens/img/Principais_requisitos_filtrado.png)
+---
 ### Busca de vagas por filtros  
 
 #### Filtro por requisitos/linguagens  
